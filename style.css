@@ -1,0 +1,21 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+#weight {
+width: 5rem;
+}
+
+.input label {
+    font-size: .75rem;
+}
+

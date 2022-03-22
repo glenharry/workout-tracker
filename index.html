@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Harry Trains</h1>
+    <form class="inputs" action="">
+        <div class="input">
+            <label for="name">Enter Exercise</label> <input name="name" id="name" type="text" placeholder="Name">
+        </div>
+        <div class="input">
+            <label for="weight">Enter weight (KG)</label> <input name="weight" id="weight" type="number" min="0"
+                placeholder="Weight">
+        </div>
+        <div class="input">
+            <label for="setOneReps">Reps</label> <input name="setOneReps" id="setOneReps" type="number" min="0"
+                placeholder="Reps">
+        </div>
+        <div class="input">
+            <input name="setTwoReps" id="setTwoReps" type="number" min="0" placeholder="Reps">
+        </div>
+        <div class="input">
+            <input name="setThreeReps" id="setThreeReps" type="number" min="0" placeholder="Reps">
+        </div>
+
+    </form>
+    <ul class="exercise-list">
+
+    </ul>
+    <button type="submit">Submit</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
